@@ -41,12 +41,20 @@
   line-height: 100px;
 }
 
+
+
+
+
 #chk{
   position: absolute;
   visibility: hidden;
   z-index: -1111;
 }
-
+#chke{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
 
 .sidemenu{
   line-height: 100px;
@@ -61,7 +69,10 @@
   width:50%;
 
 }
-
+.show-follow{
+  font-size: 30px;
+  padding: 0 20px;
+}
 
 
 
