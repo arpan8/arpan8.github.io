@@ -98,6 +98,7 @@ img.img_cri.img-responsive {
   padding-top: 40px;
   text-align: justify;
   padding-left: 250px;
+  padding-left: 100px;  
 }
 
 @media screen and (max-width:800px) {
