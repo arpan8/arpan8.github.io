@@ -36,16 +36,16 @@
       "startDate": "March, 2021",
       "endDate": "Present",
       "highlights": [
-        "Wrote and defined clean codes to achieve functional and sustainable web applications.",
-        "Contributed to large multi-developer projects using agile methodology.",
-        "Assisted project managers in understanding client requirements and planning technical solutions.",
-        "Created technical documentation, sharing knowledge, ideas, and solutions with the wider development team."
+        "Developed and maintained clean, functional, and sustainable web applications by writing and defining clean code.",
+        "Collaborated on large-scale projects with multiple developers using agile methodology.",
+        "Supported project managers in comprehending client requirements and devising technical solutions.",
+        "Generated technical documentation and facilitated knowledge sharing within the development team."
       ]
     },
     {
       "highlights": [
-        "Worked closely with other team members to identify and remove software bugs.",
-        "Troubleshoot and debug software to check and rectify discrepancies."
+        "Collaborated with team members to identify and resolve software bugs.",
+        "Conducted troubleshooting and debugging of software to address discrepancies."
       ],
       "company": "Sibyl Infotech Pvt Ltd",
       "position": "Software Developer",
@@ -55,8 +55,8 @@
     },
     {
       "highlights": [
-        "Continuously developed coding skills and codebase knowledge by attending regular training, overseeing professionals, and regular practice.",
-        "Shadowed senior software developers throughout projects to gain expertise in coding and fixing bugs."
+        "Continuously enhanced coding skills and codebase knowledge through regular training, mentorship, and consistent practice.",
+        "Shadowed senior software developers during projects to acquire proficiency in coding and bug resolution."
       ],
       "company": "WRC Technologies (P) Ltd",
       "position": "Junior Software Developer",
@@ -102,6 +102,14 @@
         "Cognito"
       ],
       "name": "AWS Services"
+    },
+    {
+      "keywords": [
+        "MySQL",
+        "PostgresSQL",
+        "MongoDB"
+      ],
+      "name": "Database"
     }
   ],
   "projects": [
@@ -110,12 +118,12 @@
       "description": "It is an AI platform that brings science to the art of scoping - leveraging existing company knowledge, promoting collaboration, reducing the sales cycle, closing more deals, and enhancing customer relationships and their reputations.",
       "url": "",
       "keywords": [
-        "Node js, React js, Docker, ChatGPT, AWS cognito, SES, SQS,  Bit Bucket"
+        "Node js, React js, PostgresSQL, MongoDb, Redis, Docker, ChatGPT, AWS cognito, SES, SQS,  Bit Bucket"
       ]
     },
     {
       "keywords": [
-        "Node js, Vue Js, S3 Bucket,  SES, SQS, Bit Bucket"
+        "Node js, Vue Js, MySQL, S3 Bucket,  SES, SQS, Bit Bucket"
       ],
       "description": "It is a cloud-based SaaS (Software as a service) product that helps security agencies to solve their operational and employee hiring problem and keep track of their operations in real-time.",
       "name": "Zalyon(Codelogicx)"
