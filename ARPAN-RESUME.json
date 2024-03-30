@@ -12,7 +12,7 @@
     "email": "arpanmajibally@gmail.com",
     "phone": "7044970070",
     "location": {
-      "address": "West Bengal, India"
+      "address": "Howrah, West Bengal, India"
     },
     "website": "https://www.linkedin.com/in/arpan-maji-59579b147/"
   },
@@ -81,7 +81,7 @@
         "React Js",
         "Vue Js"
       ],
-      "name": "Frameworks/Libraries"
+      "name": "Frameworks/Libraries (front end / back end)"
     },
     {
       "keywords": [
@@ -110,6 +110,15 @@
         "MongoDB"
       ],
       "name": "Database"
+    },
+    {
+      "keywords": [
+        "Problem-Solving",
+        "Collaboration",
+        "Communication",
+        "Adaptability"
+      ],
+      "name": "Soft Skills"
     }
   ],
   "projects": [
