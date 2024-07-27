@@ -1,0 +1,129 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {ARPAN MAJI}}\\
+	Howrah, West Bengal, India $\cdot$ arpanmajibally@gmail.com $\cdot$ 7044970070 $\cdot$ https://www.linkedin.com/in/arpan-maji-59579b147/\\
+\end{center}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages:                       & Javascript, Typescript                                   \\
+	Frameworks/Libraries (front end / back end): & NodeJs, HapiJs, ExpressJs, ReactJs, VueJs                \\
+	Tools:                                       & Git, Vscode, Redis, Docker, Swagger                      \\
+	AWS Services:                                & S3 bucket, Secrets Manager, SQS, SES, Cognito            \\
+	Database:                                    & MySQL, PostgresSQL, MongoDB                              \\
+	ORM/ODM:                                     & Sequelize, Prisma, Mongoose                              \\
+	Soft Skills:                                 & Problem-Solving, Collaboration, Communication, Mentoring \\
+\end{tabular}
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{CodelogicX Technologies Pvt Ltd} \hfill Kolkata, West Bengal\\
+\textit{Full Stack Developer} \hfill March, 2021 - Present (3.5+ years)\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Developed and maintained clean, functional, and sustainable web applications by writing and defining clean code.
+	\item Collaborated on large-scale projects with multiple developers using agile methodology.
+	\item Supported project managers in comprehending client requirements and devising technical solutions.
+	\item Generated technical documentation and facilitated knowledge sharing within the development team.
+\end{itemize}
+
+\header{Projects}
+{\textbf{Zoma(CodelogicX)}} {\sl NodeJs, ReactJs, PostgresSQL, MongoDB, Redis, Docker, ChatGPT, AWS cognito, SES, SQS, Bitbucket} \\
+It is an AI platform that brings science to the art of scoping - leveraging existing company knowledge, promoting collaboration, reducing the sales cycle, closing more deals, and enhancing customer relationships and their reputations.\\
+\vspace*{2mm}
+{\textbf{Zalyon(CodelogicX)}} {\sl NodeJs, VueJs, MySQL, S3 Bucket, SES, SQS, Bitbucket} \\
+It is a cloud-based SaaS (Software as a service) product that helps security agencies to solve their operational and employee hiring problem and keep track of their operations in real-time.\\
+\vspace*{2mm}
+{\textbf{Kanban(Personal)}} {\sl Github, ReactJs, Redux} \hfill https://github.com/arpan8/kanban-app-using-react?tab=readme-ov-file\\
+It is a fully functional task management app with a light/dark mode toggle. check the code and video representation here\\
+\vspace*{2mm}
+
+%==== Education ====%
+\header{Education}
+\textbf{Supreme Knowledge Foundation Group of Institutions}\hfill Hooghly, India\\
+B.Tech Computer Science and Engineering \textit{GPA: 8.1} \hfill 2015 - 2019\\
+\vspace{2mm}
+
+\header{EXTRA-CURRICULAR ACTIVITIES}
+\textbf{Write blog posts to help other developers.} \hfill https://medium.com/@arpanmajibally/hapi-js-swagger-documentation-4a94376ae665\\
+https://medium.com/@arpanmajibally/hapi-js-authentication-with-swagger-documentation-3fe916e24280\\
+\vspace*{2mm}
+
+\ 
+\end{document}
