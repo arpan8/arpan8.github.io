@@ -1,0 +1,165 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "awards": "EXTRA-CURRICULAR ACTIVITIES"
+  },
+  "basics": {
+    "name": "ARPAN MAJI",
+    "email": "arpanmajibally@gmail.com",
+    "phone": "7044970070",
+    "location": {
+      "address": "Howrah, West Bengal, India"
+    },
+    "website": "https://www.linkedin.com/in/arpan-maji-59579b147/"
+  },
+  "education": [
+    {
+      "institution": "Supreme Knowledge Foundation Group of Institutions",
+      "area": "Computer Science and Engineering",
+      "studyType": "B.Tech",
+      "startDate": "2015",
+      "endDate": "2019",
+      "gpa": "8.1",
+      "location": " Hooghly, India"
+    }
+  ],
+  "work": [
+    {
+      "company": "CodelogicX Technologies Pvt Ltd",
+      "location": "Kolkata, West Bengal",
+      "position": "Full Stack Developer",
+      "website": "",
+      "startDate": "March, 2021",
+      "endDate": "Present",
+      "highlights": [
+        "Developed and maintained clean, functional, and sustainable web applications by writing and defining clean code.",
+        "Collaborated on large-scale projects with multiple developers using agile methodology.",
+        "Supported project managers in comprehending client requirements and devising technical solutions.",
+        "Generated technical documentation and facilitated knowledge sharing within the development team."
+      ]
+    },
+    {
+      "highlights": [
+        "Collaborated with team members to identify and resolve software bugs.",
+        "Conducted troubleshooting and debugging of software to address discrepancies."
+      ],
+      "company": "Sibyl Infotech Pvt Ltd",
+      "position": "Software Developer",
+      "location": "Kolkata, West Bengal",
+      "startDate": "August,2020",
+      "endDate": " February, 2021"
+    },
+    {
+      "highlights": [
+        "Continuously enhanced coding skills and codebase knowledge through regular training, mentorship, and consistent practice.",
+        "Shadowed senior software developers during projects to acquire proficiency in coding and bug resolution."
+      ],
+      "company": "WRC Technologies (P) Ltd",
+      "position": "Junior Software Developer",
+      "location": "Kolkata, West Bengal",
+      "startDate": "December, 2019 ",
+      "endDate": "July, 2020"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Javascript"
+      ]
+    },
+    {
+      "keywords": [
+        "Node js",
+        "Hapi js",
+        "Express Js",
+        "React Js",
+        "Vue Js"
+      ],
+      "name": "Frameworks/Libraries (front end / back end)"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Vscode",
+        "Redis",
+        "Docker",
+        "Swagger"
+      ],
+      "name": "Tools"
+    },
+    {
+      "keywords": [
+        "S3 bucket",
+        "Secrets Manager",
+        " SQS",
+        "SES",
+        "Cognito"
+      ],
+      "name": "AWS Services"
+    },
+    {
+      "keywords": [
+        "MySQL",
+        "PostgresSQL",
+        "MongoDB"
+      ],
+      "name": "Database"
+    },
+    {
+      "keywords": [
+        "Problem-Solving",
+        "Collaboration",
+        "Communication",
+        "Adaptability"
+      ],
+      "name": "Soft Skills"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Zoma(Codelogicx)",
+      "description": "It is an AI platform that brings science to the art of scoping - leveraging existing company knowledge, promoting collaboration, reducing the sales cycle, closing more deals, and enhancing customer relationships and their reputations.",
+      "url": "",
+      "keywords": [
+        "Node js, React js, PostgresSQL, MongoDb, Redis, Docker, ChatGPT, AWS cognito, SES, SQS,  Bit Bucket"
+      ]
+    },
+    {
+      "keywords": [
+        "Node js, Vue Js, MySQL, S3 Bucket,  SES, SQS, Bit Bucket"
+      ],
+      "description": "It is a cloud-based SaaS (Software as a service) product that helps security agencies to solve their operational and employee hiring problem and keep track of their operations in real-time.",
+      "name": "Zalyon(Codelogicx)"
+    },
+    {
+      "keywords": [
+        "Github, React js, Redux"
+      ],
+      "description": "It is a fully functional task management app with a light/dark mode toggle. check the code and video representation here",
+      "name": "Kanban(Personal)",
+      "url": "https://github.com/arpan8/kanban-app-using-react?tab=readme-ov-file"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Write blog posts to help other developers.",
+      "awarder": "https://medium.com/@arpanmajibally/hapi-js-swagger-documentation-4a94376ae665",
+      "summary": "https://medium.com/@arpanmajibally/hapi-js-authentication-with-swagger-documentation-3fe916e24280"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "skills",
+    "work",
+    "projects",
+    "education",
+    "awards"
+  ]
+}
